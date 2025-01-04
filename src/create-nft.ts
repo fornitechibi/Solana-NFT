@@ -58,7 +58,7 @@ const transaction = await createNft(umi, {
   mint,
   name: "Purpledragon NFT",
   symbol: "PUR",
-  uri: "https://raw.githubusercontent.com/fornitechibi/Solana-NFT/main/assets/metadata.json",
+  uri: "https://raw.githubusercontent.com/fornitechibi/Solana-NFT/main/assets/metadata-purpledragon.json",
   sellerFeeBasisPoints: percentAmount(0),
   collection: {
     key: collectionAddress,
