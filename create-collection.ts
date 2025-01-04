@@ -54,7 +54,7 @@ const transaction = await createNft(umi, {
   mint: collectionmint,
   name: "Bludragon NFT",
   symbol: "BLU",
-  uri: "https://...",
+  uri: "https://raw.githubusercontent.com/fornitechibi/Solana-NFT/main/assets/metadata.json",
   sellerFeeBasisPoints: percentAmount(0),
   isCollection: true,
 });
